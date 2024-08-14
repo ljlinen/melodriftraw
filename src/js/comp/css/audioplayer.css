@@ -1,0 +1,44 @@
+  
+  /* Move css to component's css file in react */
+  
+  .audioplayer-div-main-song {
+    /*margin-top: 50px;*/
+    /*delete above code when moving to react*/
+    display: flex;
+    height: 70px;
+    width: 100%;
+    border-radius: 9px;
+    background-color: #090909;
+    border: 1px solid #9494941C;
+    overflow: hidden;
+    
+    /* remove below later*/
+    margin-block: 5px;
+    
+  }
+  
+  .ap-div-cover {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 9px;
+    overflow: hidden;
+  }
+  
+  .ap-div-cover .ap-img-cover {
+    position: relative;
+    filter: brightness(.5);
+    
+  }
+  
+  .ap-div-cover .ap-img-playpauseicon {
+    position: absolute;
+    width: 40px;
+    filter: brightness(1.5)
+  }
+  
+  .ap-div-info {
+    padding: 10px 6px;
+  }
